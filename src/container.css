@@ -1,0 +1,54 @@
+.container {
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #d6d7dc;
+    margin-right: 40px;
+}
+
+.name {
+    margin: 20px 5px;
+    font-size: 21px;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: #9c6dea;
+}
+
+.items {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.add_basket {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #ffa700;
+}
+
+.add_basket:hover {
+    background-color: cornflowerblue;
+    transition: 0.8s;
+}
+
+.loader-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: -15vh;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 999;
+}
