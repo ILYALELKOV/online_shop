@@ -3,6 +3,7 @@ import api from './api.js'
 import './container.css'
 import NavBar from './components/Navbar/NavBar.jsx'
 import Loader from './components/Loader/Loader.jsx'
+import Footer from './components/Footer/Footer.jsx'
 
 function App() {
 	const [items, setItems] = useState(null)
@@ -51,6 +52,9 @@ function App() {
 						</div>
 					))
 				)}
+			</div>
+			<div className="footer">
+				<Footer />
 			</div>
 		</div>
 	)

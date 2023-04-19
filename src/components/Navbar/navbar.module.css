@@ -1,4 +1,5 @@
 .nav_container {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,14 +41,12 @@ form {
 }
 
 .btn_search:hover {
-    /*background-color: #66CDAA;*/
     outline: 2px solid #60ff2d;
-    /*transition: 0.9s;*/
 }
 
 .logo {
-    height: 45px;
-    width: 220px;
+    height: 50px;
+    width: 215px;
 }
 
 .logo:hover {
