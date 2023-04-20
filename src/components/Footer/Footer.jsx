@@ -18,9 +18,13 @@ const Footer = () => {
 					540 AUDUBON AVE <br /> NEW YORK NY 10040-3304 <br /> USA
 				</address>
 			</div>
+			<div className={style.green_planet_container}>
+				<img src="/src/components/Footer/img/planet.png" alt="planet" />
+				<span>Save nature and help people with us</span>
+			</div>
 			<div className={style.complaint_container}>
 				<img src="/src/components/Footer/img/complaint.png" alt="" />
-				<span>leave a complaint</span>
+				<span>Leave a complaint</span>
 			</div>
 			<div className={style.phone_container}>
 				<img
